@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Envio de correo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"> 
+</head>
+<body>
+	<form action="correo.php" method="post" class="form_contact">
+		<input type="text" placeholder="Apellido y Nombre" name="name" required="">
+		<input type="email" placeholder="Email" name="email" required="">
+		<input type="text" placeholder="Asunto" name="asunto" required="">
+		<textarea placeholder ="Escriba aquí su mensaje" name="msg"></textarea>
+		 <input type="submit" value="Enviar Mensaje" id="btnSend">
+	</form>
+</body>
+</html>
